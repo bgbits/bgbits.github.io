@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "bgbits"
+title                    : "Texas Summer Heat"
 title_separator          : "-"
 name                     : "bradley_g"
-description              : "bg bits and pieces"
-url                      : "https://bgbits.github.io"
+description              : "Tech escapades in the fiery Texas heat"
+url                      : "http://texassummerheat.gq"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bgbits/bgbits.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -70,17 +70,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-89408200-1
 
 
 # Site Author
 author:
-  name             : "bradley_g"
+  name             : "Bradley G"
   avatar           : "bg-new-avater.png"
-  bio              : "Helpful notes from the random projects I am often thrown."
-  location         : "Houston"
+  bio              : "Tech escapades in the fiery Texas heat."
+  location         : "Houston, TX"
   email            :
   uri              :
   bitbucket        :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : https://github.com/bgbits
   google_plus      :
   keybase          :
   instagram        :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : https://twitter.com/bradley_g_mayne
   vine             :
   weibo            :
   xing             :
