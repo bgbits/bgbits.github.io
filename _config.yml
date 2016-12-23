@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
+locale                   : en
 title                    : "Texas Summer Heat"
 title_separator          : "-"
-name                     : "bradley_g"
+name                     : Bradley G
 description              : "Tech escapades in the fiery Texas heat"
-url                      : "http://texassummerheat.gq"
+url                      : http://texassummerheat.gq
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "bgbits/bgbits.github.io"
+repository               : bgbits/bgbits.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs            : false
 words_per_minute         : 200
 comments:
-  provider               : "disqus"
+  provider               : disqus
   disqus:
-    shortname            :  "bgbits"
+    shortname            : bgbits
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -70,17 +70,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : google
   google:
     tracking_id          : UA-89408200-1
 
 
 # Site Author
 author:
-  name             : "Bradley G"
-  avatar           : "bg-new-avater.png"
+  name             : Bradley G
+  avatar           : bg-new-avater.png
   bio              : "Tech escapades in the fiery Texas heat."
-  location         : "Houston, TX"
+  location         : Houston, TX
   email            :
   uri              :
   bitbucket        :
