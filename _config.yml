@@ -164,7 +164,7 @@ kramdown:
 # Front Matter Defaults
 defaults:
   #_posts
-  - scope:
+    scope:
     path: "" 
     Type: posts
   values:
