@@ -18,9 +18,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false
 words_per_minute         : 200
 comments:
-  provider               : disqus
+  provider               : "disqus"
   disqus:
-    shortname            : bgbits
+    shortname            : "bgbits"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -70,17 +70,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : google
+  provider               : "google"
   google:
-    tracking_id          : UA-89408200-1
+    tracking_id          : "UA-89408200-1"
 
 
 # Site Author
 author:
-  name             : Bradley G
-  avatar           : bg-new-avater.png
+  name             : "Bradley G"
+  avatar           : "bg-new-avater.png"
   bio              : "Tech escapades in the fiery Texas heat."
-  location         : Houston, TX
+  location         : "Houston, TX"
   email            :
   uri              :
   bitbucket        :
@@ -152,27 +152,27 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-#  input: GFM
-#  hard_wrap: false
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-#  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input: GFM
+  hard_wrap: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+#  enable_coderay: false
 
 # Front Matter Defaults
-#defaults:
+defaults:
   #_posts
-  - scope
- #   path: 
- #   Type: posts
- # values:
+  - scope:
+    path: "" 
+    Type: posts
+  values:
     layout: single
     tags: true
-    comments: true
+    comments: false
     share: true
-    
+    related: false
 
 # Sass/SCSS
 sass:
