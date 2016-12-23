@@ -11,7 +11,7 @@ title                    : "Texas Summer Heat"
 title_separator          : "-"
 name                     : Bradley G
 description              : "Tech escapades in the fiery Texas heat"
-url                      : http://texassummerheat.gq
+url                      : "http://texassummerheat.gq"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : bgbits/bgbits.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
