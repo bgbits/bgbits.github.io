@@ -162,12 +162,12 @@ kramdown:
   enable_coderay: false
 
 # Front Matter Defaults
-defaults:
+#defaults:
   #_posts
   - scope
-    path: /
-    Type: posts
-  values:
+ #   path: 
+ #   Type: posts
+ # values:
     layout: single
     tags: true
     comments: true
