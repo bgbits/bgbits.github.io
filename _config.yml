@@ -165,7 +165,7 @@ kramdown:
 defaults:
   #_posts
   - scope
-    path: ""
+    path: 
     Type: posts
   values:
     layout: single
