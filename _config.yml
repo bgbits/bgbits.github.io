@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
+locale                   : en
 title                    : "Texas Summer Heat"
 title_separator          : "-"
 name                     : "Bradley G"
 description              : "Tech escapades in the fiery Texas heat"
 url                      : "bgbits.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : bgbits/bgbits.github.io
+repository               : # bgbits/bgbits.github.io
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false
 words_per_minute         : 200
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : bradley_g_mayne
+  username               : "bradley_g_mayne"
 facebook:
   username               :
   app_id                 :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/bgbits
+  github           : "https://github.com/bgbits"
   google_plus      :
   keybase          :
   instagram        :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : https://twitter.com/bradley_g_mayne
+  twitter          : "https://twitter.com/bradley_g_mayne"
   vine             :
   weibo            :
   xing             :
